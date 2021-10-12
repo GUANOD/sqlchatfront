@@ -1,0 +1,28 @@
+.container * {
+  color: blanchedalmond;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.container {
+  position: absolute;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  width: clamp(300px, 60vw, 800px);
+  height: 50vh;
+  backdrop-filter: blur(10px);
+}
+
+.container button {
+  background: transparent;
+  border: 2px solid blanchedalmond;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.container p {
+  padding: 10px;
+  text-align: center;
+}

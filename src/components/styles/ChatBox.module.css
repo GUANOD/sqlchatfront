@@ -1,0 +1,44 @@
+.chatBar {
+  grid-area: chatbox;
+  background-color: rgba(1, 13, 19, 0.1);
+  padding: 10px 30px;
+  overflow: auto;
+}
+
+.chatBar ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.sent,
+.received {
+  overflow: hidden;
+  background-color: rgba(250, 235, 215, 0.8);
+  padding: 20px;
+  margin: 5px 0;
+  border-radius: 20px;
+  width: fit-content;
+  max-width: 70%;
+  font-weight: bold;
+}
+
+.received {
+  background-color: rgba(0, 0, 0, 0.418);
+  color: blanchedalmond;
+  position: relative;
+}
+
+.sent {
+  place-self: flex-end;
+}
+
+.time {
+  display: none;
+}
+.timeShow {
+  display: block;
+  text-align: end;
+  font-weight: normal;
+  font-style: italic;
+}

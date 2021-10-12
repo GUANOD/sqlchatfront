@@ -1,0 +1,14 @@
+.chat {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-template-rows: 35fr 5fr;
+  grid-template-areas:
+    "sidebar chatbox"
+    "chatform chatform";
+  width: 90vw;
+  height: 90vh;
+  border-radius: 20px;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}

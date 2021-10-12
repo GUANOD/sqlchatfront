@@ -1,0 +1,79 @@
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  grid-area: sidebar;
+  height: 100%;
+  background-color: rgba(1, 13, 19, 0.5);
+  overflow: hidden;
+}
+
+.contactWrap {
+  overflow: auto;
+  height: 90%;
+  width: 100%;
+  padding: 10px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  width: 90%;
+  height: 75px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  color: blanchedalmond;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.contactForm {
+  height: 10%;
+  width: 100%;
+}
+
+.contactForm * {
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.contactForm input[type="submit"] {
+  width: 40%;
+  height: 100%;
+}
+
+.contactForm input[type="text"] {
+  width: 60%;
+  height: 100%;
+}
+
+.contact:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.clicked {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.clicked:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.contact img {
+  grid-area: pic;
+  width: 60px;
+  border-radius: 20%;
+}
+
+.details {
+  margin: 10px;
+  text-align: left;
+}

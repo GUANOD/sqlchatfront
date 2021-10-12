@@ -1,0 +1,96 @@
+.containerLog,
+.containerSub,
+.container {
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  place-items: center;
+  padding: 30px 0;
+  min-height: 300px;
+  width: clamp(300px, 50vw, 600px);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(1, 13, 19, 0.05);
+}
+
+.containerSub {
+  height: 40vh;
+}
+
+.h2 {
+  color: #072d35;
+  font-size: 40px;
+}
+
+.form {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  width: 80%;
+  border-bottom: 2px solid #4d7971;
+  color: #a4c3b8;
+}
+
+.input {
+  position: relative;
+  height: 40px;
+  bottom: 0;
+  background-color: transparent;
+  border: none;
+  z-index: 10;
+  color: blanchedalmond;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.input:focus,
+.input:active {
+  outline: none;
+  background-color: transparent;
+}
+
+.hover {
+  position: relative;
+  transform: translatey(-20px);
+  font-size: 12px;
+}
+
+.label {
+  position: relative;
+  height: 20px;
+  bottom: -30px;
+}
+
+.hover,
+.label {
+  transition: all 0.1s linear;
+}
+
+.button {
+  background: transparent;
+  padding: 5px 20px;
+  margin-top: 30px;
+  border: 2px solid #4d7971;
+  border-radius: 3px;
+  color: #4d7971;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.create {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #4d7971;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}

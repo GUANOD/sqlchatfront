@@ -1,0 +1,30 @@
+.chatInput {
+  grid-area: chatform;
+}
+
+.chatInput * {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.chatInput form {
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+  grid-template-areas: "input send";
+}
+
+.chatInput input[type="text"] {
+  grid-area: input;
+  resize: none;
+  outline: none;
+  padding: 5px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.chatInput input[type="submit"] {
+  grid-area: send;
+  font-size: 20px;
+  font-weight: bold;
+}
