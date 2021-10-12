@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sqlchat2/static/css/main.b00a1a03.chunk.css",
+    "main.js": "/sqlchat2/static/js/main.aeac4922.chunk.js",
+    "main.js.map": "/sqlchat2/static/js/main.aeac4922.chunk.js.map",
+    "runtime-main.js": "/sqlchat2/static/js/runtime-main.68e7c94b.js",
+    "runtime-main.js.map": "/sqlchat2/static/js/runtime-main.68e7c94b.js.map",
+    "static/js/2.b849cfcb.chunk.js": "/sqlchat2/static/js/2.b849cfcb.chunk.js",
+    "static/js/2.b849cfcb.chunk.js.map": "/sqlchat2/static/js/2.b849cfcb.chunk.js.map",
+    "index.html": "/sqlchat2/index.html",
+    "static/css/main.b00a1a03.chunk.css.map": "/sqlchat2/static/css/main.b00a1a03.chunk.css.map",
+    "static/js/2.b849cfcb.chunk.js.LICENSE.txt": "/sqlchat2/static/js/2.b849cfcb.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/sqlchat2/static/media/4065770.87e20846.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68e7c94b.js",
+    "static/js/2.b849cfcb.chunk.js",
+    "static/css/main.b00a1a03.chunk.css",
+    "static/js/main.aeac4922.chunk.js"
+  ]
+}
