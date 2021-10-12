@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/sqlchatfront/static/css/main.b3881c92.chunk.css",
-    "main.js": "/sqlchatfront/static/js/main.aeac4922.chunk.js",
-    "main.js.map": "/sqlchatfront/static/js/main.aeac4922.chunk.js.map",
+    "main.css": "/sqlchatfront/static/css/main.6805dcbe.chunk.css",
+    "main.js": "/sqlchatfront/static/js/main.4a651ffb.chunk.js",
+    "main.js.map": "/sqlchatfront/static/js/main.4a651ffb.chunk.js.map",
     "runtime-main.js": "/sqlchatfront/static/js/runtime-main.b7d4435f.js",
     "runtime-main.js.map": "/sqlchatfront/static/js/runtime-main.b7d4435f.js.map",
-    "static/js/2.3d627ee2.chunk.js": "/sqlchatfront/static/js/2.3d627ee2.chunk.js",
-    "static/js/2.3d627ee2.chunk.js.map": "/sqlchatfront/static/js/2.3d627ee2.chunk.js.map",
+    "static/js/2.aee03fca.chunk.js": "/sqlchatfront/static/js/2.aee03fca.chunk.js",
+    "static/js/2.aee03fca.chunk.js.map": "/sqlchatfront/static/js/2.aee03fca.chunk.js.map",
     "index.html": "/sqlchatfront/index.html",
-    "static/css/main.b3881c92.chunk.css.map": "/sqlchatfront/static/css/main.b3881c92.chunk.css.map",
-    "static/js/2.3d627ee2.chunk.js.LICENSE.txt": "/sqlchatfront/static/js/2.3d627ee2.chunk.js.LICENSE.txt",
+    "static/css/main.6805dcbe.chunk.css.map": "/sqlchatfront/static/css/main.6805dcbe.chunk.css.map",
+    "static/js/2.aee03fca.chunk.js.LICENSE.txt": "/sqlchatfront/static/js/2.aee03fca.chunk.js.LICENSE.txt",
     "static/media/app.css": "/sqlchatfront/static/media/4065770.87e20846.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b7d4435f.js",
-    "static/js/2.3d627ee2.chunk.js",
-    "static/css/main.b3881c92.chunk.css",
-    "static/js/main.aeac4922.chunk.js"
+    "static/js/2.aee03fca.chunk.js",
+    "static/css/main.6805dcbe.chunk.css",
+    "static/js/main.4a651ffb.chunk.js"
   ]
 }
